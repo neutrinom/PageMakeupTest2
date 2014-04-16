@@ -1,0 +1,13 @@
+#box-shadow-container{
+    width:750px; 
+    display: block;
+    padding: 0px;
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(color='#cdcdcd', Direction=45, Strength=4)
+        progid:DXImageTransform.Microsoft.Shadow(color='#cdcdcd', Direction=135, Strength=4)
+        progid:DXImageTransform.Microsoft.Shadow(color='#cdcdcd', Direction=225, Strength=4)
+        progid:DXImageTransform.Microsoft.Shadow(color='#cdcdcd', Direction=315, Strength=4);
+        position: relative;background:#fff;margin: 0 auto;
+        zoom: 1;
+}
+#box-shadow-container #content-wrapper{margin-left: 8px; margin-top: 5px;}
